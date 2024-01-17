@@ -1,0 +1,25 @@
+Testarea de Acceptare (Black Box Testing):
+Scenariu de bază:
+
+Input: "2+3*4"
+Așteptat: Rezultatul să fie 14.
+Expresie cu paranteze:
+
+Input: "(2+3)*4"
+Așteptat: Rezultatul să fie 20.
+Expresie cu numere negative:
+
+Input: "10+(-5)*2"
+Așteptat: Rezultatul să fie 0.
+Expresie cu divizare la zero:
+
+Input: "6/0"
+Așteptat: "ERROR" (deoarece este o împărțire la zero).
+Expresie cu numere în formă infinită:
+
+Input: "1/0"
+Așteptat: "Infinity".
+Expresie invalidă:
+
+Input: "5++3"
+Așteptat: "ERROR" (deoarece există două operatori de adunare consecutivi).
