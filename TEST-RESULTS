@@ -23,3 +23,19 @@ Expresie invalidă:
 
 Input: "5++3"
 Așteptat: "ERROR" (deoarece există două operatori de adunare consecutivi).
+
+
+Observații:
+Implementarea priorităților operațiilor și gestionarea corectă a parantezelor sunt puncte forte.
+Nu s-au identificat erori majore în cadrul testelor de acceptare.
+
+Observații privind testul unitar:
+Testul acoperă scenarii diverse pentru a verifica comportamentul corect al metodei Calculate.
+Este important să adăugați mai multe teste pentru a acoperi cât mai multe cazuri posibile.
+
+Omisii/Defecte potențiale:
+Se recomandă adăugarea unui mesaj de eroare mai descriptiv în cazul împărțirii la zero sau a altor erori semantice.
+
+Alte Sugestii:
+În loc să returnați "Infinity" pentru împărțire la zero, ar putea fi util să oferiți un mesaj explicativ.
+În cazul expresiilor invalide, s-ar putea adăuga un mesaj de eroare mai detaliat pentru a ajuta utilizatorii să înțeleagă problema.
